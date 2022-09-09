@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "nanumSquareL";
+    src: url(font/NanumSquareL.ttf);
+
+    font-family: "nanumSquareB";
+    src: url(font/NanumSquareB.ttf);
+}
+
+
+
+p, button {
+    font-family: "nanumSquareL";
+    font-size: 1rem;
+    font-weight: light;
+    margin-bottom: 0px;
+}
+
+.common-title {
+    font-family: "nanumSquareB";
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+
+.header-profile h4 {
+    font-size: 2rem;
+}
+
+.skyblue-text {
+    color: #6fbaf8;
+}
+
+.bold-text {
+    font-family: "nanumSquareB";
+    font-size: 1rem;
+    font-weight: bolder;
+}

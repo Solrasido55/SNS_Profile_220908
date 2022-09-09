@@ -1,0 +1,144 @@
+body {
+    margin: 0px;
+}
+
+.bg {
+    background-color: #f7f9fc;
+    padding: 100px;
+    width:100%;
+    height:100%;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+
+.white-box {
+    padding:20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 2px 1px #eee;
+}
+
+.header-container {
+    margin: auto;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-name{
+    display:flex;
+    flex-direction: row;
+
+}
+.header-profile {
+    width: 100%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
+.header-profile h4, .header-profile p{
+    margin:0px 0px 0px 0px;
+}
+
+.skyblue-btn {
+    background-color: #6fbaf8;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.header-text {
+    border-left: solid 2px #eee;
+    height: 100%;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.header-text div{
+    display:flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+
+.navbar-container {
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.navbar-profile {
+    border-bottom: solid 3px #6fbaf8;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+}
+
+.navbar-empty {
+    width:85%;
+    height: 100%;
+    border-bottom: solid 3px #eee;
+    
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-work {
+    height: 350px;
+    width: 24%;
+}
+
+.main-about {
+    height: 500px;
+    width:49%;
+    
+}
+
+.main-about span {
+    border-radius: 100px;
+    border: solid 1px lightgray;
+    display: inline-block;
+    padding: 3px 12px 5px 12px;
+    margin-right: 2px;
+    margin-bottom: 5px;
+}
+
+.main-signup {
+    width: 24%;
+    text-align: center;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+.main-signup button {
+    margin-bottom: 10px;
+}
+
+.skyblue-icon {
+    font-size: 100px;
+    color:#6fbaf8;
+}
+
